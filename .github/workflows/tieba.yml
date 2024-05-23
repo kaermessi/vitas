@@ -3,8 +3,8 @@ name: Tie Ba Sign In
 on:
   workflow_dispatch:
   schedule:
-    # 早晨 6 点 50 执行
-    - cron: "50 22 * * *"
+    # 凌晨 02 点 50 执行
+    - cron: "50 18 * * *"
 
 jobs:
   build:
