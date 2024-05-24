@@ -3,8 +3,8 @@ name: Ali Yun Pan
 on:
   workflow_dispatch:
   schedule:
-    # 上午 10 点 23 执行
-    - cron: "23 2 * * *"
+    # 凌晨 03 点 23 执行
+    - cron: "23 19 * * *"
 
 jobs:
   build:
